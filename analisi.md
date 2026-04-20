@@ -36,6 +36,9 @@
  -installazione mysql2
  -connect con il server al database username : root 
  -inserimento delle query all' interno dei controllers
+ -canalizzazione routers
+ -creazione messaggi di errore se si capita in pagine insesistenti
+ 
 
  BONUS : creazione cartella public per gestione .png
  
