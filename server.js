@@ -1,6 +1,11 @@
 const express = require('express')
 const app = express()
 const port = 3000
+const filmRouter = require('./routers/filmRouter')
+
+
+app.use(express.json());
+app.use('/movies', filmRouter);
 
 app.get('/' , (req , res) => {
     res.send('bevenuto in pagina')
