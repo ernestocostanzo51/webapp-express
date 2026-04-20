@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 const filmRouter = require('./routers/filmRouter')
+const error = require('./middlewares/filmError')
 
 
 app.use(express.json());
