@@ -29,3 +29,9 @@
 
 ## COLLEGAMENTO TRA DB E EXPRESS
 
+ -creazione di un server.js (responsabile per l'avvio del server)
+ -installazione express aggiungendo i vari script 
+ -gestione sistema CRUD
+ -installazione mysql2
+ -connect con il server username : root e
+ -
