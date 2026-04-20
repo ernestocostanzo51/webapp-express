@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ernestocostanzo51/webapp-express#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mysql2": "^3.22.1"
   }
 }

@@ -36,6 +36,8 @@
  -installazione mysql2
  -connect con il server al database username : root 
  -inserimento delle query all' interno dei controllers
+
+ BONUS : creazione cartella public per gestione .png
  
 
  
