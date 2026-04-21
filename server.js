@@ -12,6 +12,10 @@ app.get('/' , (req , res) => {
     res.send('bevenuto in pagina')
 })
 
+app.use(cors({
+  origin: 'http://localhost:5173' 
+}));
+
 app.listen(port, () => {
     console.log(`Server in ascolto su http://localhost:${port}`);
 })

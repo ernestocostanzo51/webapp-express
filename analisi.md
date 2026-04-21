@@ -39,6 +39,7 @@
  -canalizzazione routers
  -creazione messaggi di errore se si capita in pagine insesistenti
  
+ 
 
  BONUS : creazione cartella public per gestione .png
  
