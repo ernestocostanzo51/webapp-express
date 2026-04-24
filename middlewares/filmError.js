@@ -10,7 +10,7 @@ function notFound(req, res, next) {
 function errorsHandler(err, req, res, next) {
     res.status(500).json({
         error: 'Internal Server Error',
-        message: err.message // Ti mostra l'errore specifico nel JSON
+        message: err.message 
     });
 };
 

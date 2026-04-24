@@ -8,4 +8,6 @@ router.get('/', movieController.index);
 
 router.get('/:id', movieController.show);
 
+router.get('/:id' , movieController.storeReview)
+
 module.exports = router;
